@@ -2,6 +2,10 @@
 
 This project uses Malaysian SARS-CoV-2 molecular epidemiology data to predict the most prevalent variant (lineage) in a given month using machine learning.
 
+This is a baseline machine learning model developed to explore the feasibility of predicting the dominant SARS-CoV-2 lineage for a given month based on Malaysian molecular epidemiology data.
+
+The current dataset is intentionally small (8 data points) and serves as a proof-of-concept to test the modeling pipeline, feature selection strategies, and classification performance. The goal is to validate the approach and structure before scaling up to larger genomic datasets.
+
 ## Objective
 Classify the most dominant SARS-CoV-2 lineage based on lineage prevalence percentages in a given month.
 
